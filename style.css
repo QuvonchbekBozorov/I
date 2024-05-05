@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+span, a {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.katta{
+  background-color: antiquewhite;
+}
+.katta__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.buk__img{
+    width: 200px;
+    align-items: center;
+}
+.buk__apl{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+}
+.bok__soc{
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 5px;
+    border: 3px solid black;
+    padding: 5px 10px;
+}
+.soc__apn{
+    text-decoration: none;
+    font-size: 22px;
+    background-color: yellow;
+    padding: 7px 8px;
+}
+.katta__img{
+    width: 100%;
+}
+.katta__bul{
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.bul__bik{
+    padding: 30px 20px;
+    background-color: white;
+    width: 32%;
+}
+.bik__h3{
+    background-color: yellow;
+    padding: 5px 10px;
+}
+.apn{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+.bik__div{
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bik__apl{
+    background-color: yellow;
+    padding: 10px 174px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.bik__h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.karopka{
+    padding: 20px 100px;
+}
+.katta__pok{
+    line-height: 1.5;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+
+.quti{
+    /* border: 10px solid red; */
+    display:  inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.rasm{
+    width: 160px;
+}
+.tugmacha{
+    background-color: #000;
+    color: white;
+    font-size: 22px;
+}
+.quti2{
+    background-image: url(christmas_bg.jpeg);
+    padding: 27px;
+    width: 550px;
+    /* border: 10px solid blue; */
+    position: fixed;
+    /* left: 10px; */
+    right: 10px;
+    bottom: 10px;
+    display: none;
+}
+.qutichiqsin{
+    display: block;
+}
+.matn{
+    background-color: yellow;
+    padding: 18px;
+    margin-bottom: 22px;
+    font-size: 18px;
+}
+.yopish{
+    border: none;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(-50px);
+}
